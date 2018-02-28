@@ -1,0 +1,165 @@
+{
+  "startingRoom": "SiebelCenter",
+  "endingRoom": "ECEB",
+  "rooms": [
+    {
+      "name": "SiebelCenter",
+      "description": "You are inside the Thomas M. Siebel Center for Computer Science, home of CS@ILLINOIS!",
+      "items": ["cs@illinois sweatshirt", "The Daily Illini", "laptop stickers"],
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "NCSA"
+        },
+        {
+          "directionName": "West",
+          "room": "CivilEngLab"
+        },
+        {
+          "directionName": "Far West",
+          "room": "EngineeringQuad"
+        },
+        {
+          "directionName": "South West",
+          "room": "DCL"
+        }
+      ]
+    },
+    {
+      "name": "NCSA",
+      "description": "You are in the National Center of Supercomputing Applications, housing the Blue Waters supercomputer.",
+	    "items": ["USB", "NCSA cap"],
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "SiebelCenter"
+        }
+      ]
+    },
+    {
+      "name": "CivilEngLab",
+      "description": "You are in the Civil Engineering Laboratory - lots of Civil Eng. students are here.",
+      "items": ["notebook", "pencil"],
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "SiebelCenter"
+        },
+        {
+          "directionName": "West",
+          "room": "EngineeringQuad"
+        },
+        {
+          "directionName": "North West",
+          "room": "ECEB"
+        }
+      ]
+    },
+    {
+      "name": "EngineeringQuad",
+      "description": "You are in the Engineering Quad - it is covered in snow.",
+      "items": ["Stewart Calculus textbook", "TI-84 calculator"],
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "CivilEngLab"
+        },
+        {
+          "directionName": "Far East",
+          "room": "SiebelCenter"
+        },
+        {
+          "directionName": "West",
+          "room": "ECEB"
+        },
+        {
+          "directionName": "North",
+          "room": "BeckmanInstitute"
+        },
+        {
+          "directionName": "Far South",
+          "room": "GraingerLibrary"
+        }
+      ]
+    },
+    {
+      "name": "ECEB",
+      "description": "You are in the ECE Building. Look at those amazing sculptures!",
+      "items": ["transistor", "HDMI cable"],
+      "directions": [
+        {
+          "directionName": "South East",
+          "room": "CivilEngLab"
+        },
+        {
+          "directionName": "East",
+          "room": "EngineeringQuad"
+        },
+        {
+          "directionName": "North East",
+          "room": "BeckmanInstitute"
+        }
+      ]
+    },
+    {
+      "name": "BeckmanInstitute",
+      "description": "You are in the Beckman Institute - a lot of research goes on here.",
+      "items": ["watch", "pen"],
+      "directions": [
+        {
+          "directionName": "South West",
+          "room": "ECEB"
+        },
+        {
+          "directionName": "South",
+          "room": "EngineeringQuad"
+        }
+      ]
+    },
+    {
+      "name": "GraingerLibrary",
+      "description": "You are in the Grainger Library - there are so many books here.",
+      "items": ["CLRS Algorithms book", "Cracking The Coding Interview book"],
+      "directions": [
+        {
+          "directionName": "Far North",
+          "room": "EngineeringQuad"
+        },
+        {
+          "directionName": "South",
+          "room": "EngineeringHall"
+        }
+      ]
+    },
+    {
+      "name": "EngineeringHall",
+      "description": "You are in the EngineeringHall - time for advising!",
+      "items": ["dollar note", "scratch paper"],
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "GraingerLibrary"
+        },
+        {
+          "directionName": "Far North East",
+          "room": "DCL"
+        }
+      ]
+    },
+    {
+      "name": "DCL",
+      "description": "You are in the DCL - lots of computer labs.",
+      "items": ["computer", "iPod"],
+      "directions": [
+        {
+          "directionName": "North East",
+          "room": "SiebelCenter"
+        },
+        {
+          "directionName": "Far South West",
+          "room": "EngineeringHall"
+        }
+      ]
+    }
+  ]
+}

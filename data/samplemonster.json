@@ -1,0 +1,69 @@
+{
+  "startingRoom":"MatthewsStreet",
+  "endingRoom":"Siebel1314",
+  "rooms":[
+    {
+      "name":"MatthewsStreet",
+      "description":"You are on Matthews, outside the Siebel Center",
+      "directions":[
+        {
+          "directionName":"East",
+          "room":"Siebel1314"
+        }
+      ],
+      "items":[
+        {
+          "name":"coin",
+          "damage":100
+        }
+      ],
+      "monstersInRoom":[
+        "Cookie Monster"
+      ]
+    },
+    {
+      "name":"Siebel1314",
+      "description":"You are in Siebel 1314.  There are happy CS 126 students doing a code review.",
+      "directions":[
+        {
+          "directionName":"West",
+          "room":"MatthewsStreet"
+        }
+      ],
+      "items":[
+        {
+          "name":"bazooka",
+          "damage":300
+        }
+      ],
+      "monstersInRoom":[
+        "Loch Ness Monster"
+      ]
+    }
+  ],
+  "player":
+  {
+    "name":"Dipro Ray",
+    "items":[
+
+    ],
+    "attack":350,
+    "defense":450,
+    "health":1000,
+    "level":1
+  },
+  "monsters":[
+    {
+      "name":"Cookie Monster",
+      "attack":250,
+      "defense":150,
+      "health":750
+    },
+    {
+      "name":"Loch Ness Monster",
+      "attack":200,
+      "defense":450,
+      "health":750
+    }
+  ]
+}
